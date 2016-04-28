@@ -113,3 +113,8 @@ Cauly 에서 발급한 track_code 를 aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee 라�
           mTracker.trackEvent(purchaseEvent);
 </script>
 ```
+- {$itemId} : 결제된 상품 ID (상품코드).
+- {$productPrice} : 결제된 상품의 가격
+- {$productQuantity} : 결제된 상품의 갯수
+- {$orderId} : 결제완료된 주문 ID
+- {$orderPrice} : 결제완료된 주문의 가격
