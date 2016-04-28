@@ -52,7 +52,7 @@ Cauly 에서 발급한 track_code 를 aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee 라�
 </script>
 ```
 
-스크립트는 <head> 보다는 <body> 태그 안쪽의 마지막 부분에 삽입하는 것이 좋습니다.
+스크립트는 head 태그 보다는 body 태그 안쪽의 마지막 부분에 삽입하는 것이 좋습니다.
 
 
 #### 상품 상세 페이지
