@@ -40,14 +40,6 @@ tracker 스크립트의 삽입 위치는 아래 3군데이며 차례대로 기�
 Cauly 에서 발급한 track_code 를 aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee 라고 가정하겠습니다.
 예제 코드에서 aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee 부분은 따로 발급 받은 track_code 로 대체하여야 합니다.
 
-### 하이브리드 앱인 경우
-하이브리드 앱은 앱 안에서 Webview 를 이용하여 컨텐츠를 보여주는 형식의 앱입니다.
-이 경우 Cauly Tracker Native SDK 의 일부 기능을 사용하여 Webview 에 WebSDK 와 통신할 수 있는 기능을 추가해야 합니다.
-<br>각 SDK의 설치및 활용은 아래 링크에서 확인가능합니다.
-<br> 1.0.1 버전 iOS/Android SDK의 Purchase API는 작동하지 않습니다.
-- [Android SDK](https://github.com/CaulyTracker/Android-Tracking-SDK)
-- [iOS SDK](https://github.com/CaulyTracker/iOS-Tracking-SDK)
-
 #### 메인 페이지
 ##### 스크립트 삽입
 ```javascript
