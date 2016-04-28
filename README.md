@@ -21,6 +21,8 @@ Cauly 리타겟팅 연동 가이드
 		- 스크립트 삽입
 	- [구매 완료 페이지](#구매-완료-페이지)
 		- 스크립트 삽입
+	- [전환 완료 페이지](#전환-완료-페이지)
+		- 스크립트 삽입
 
 
 ### 연동 절차
@@ -118,3 +120,15 @@ Cauly 에서 발급한 track_code 를 aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee 라�
 - {$productQuantity} : 결제된 상품의 갯수
 - {$orderId} : 결제완료된 주문 ID
 - {$orderPrice} : 결제완료된 주문의 가격
+
+#### 전환 완료 페이지
+##### 스크립트 삽입
+```javascript
+<script type="text/javascript" src="//image.cauly.co.kr/script/caulytracker.js"></script>
+<script type="text/javascript">
+         var mTracker = new CaulyTracker();
+         var initData = mTracker.InfoBuilder.setTrackCode("aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee").build();
+          mTracker.init(initData);
+          mTracker.trackEvent('CA_APPLY'); 
+</script>
+```
