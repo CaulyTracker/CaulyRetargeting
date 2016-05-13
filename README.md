@@ -65,9 +65,10 @@ Cauly 에서 발급한 track_code 를 aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee 라�
         var mTracker = new CaulyTracker();
         var initData = mTracker.InfoBuilder.setTrackCode("aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee").build();
          mTracker.init(initData);
-         mTracker.trackEvent('PRODUCT');  
+         mTracker.trackEvent('PRODUCT','{$itemId}');  
 </script>
 ```
+- {$itemId} : 상품 ID (상품코드).
 
 #### 구매 완료 페이지
 ##### 스크립트 삽입
